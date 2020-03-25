@@ -21,3 +21,11 @@ function increment(n) {
 function decrement(n) {
   return --n
 }
+
+function makeInt(s) {
+  return parseInt(s, 10)
+}
+
+function preserveDecimal(n) {
+  return parseFloat(n)
+}
